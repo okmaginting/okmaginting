@@ -3,10 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tailwind</title>
+    <title>Home | Kampus Merdeka</title>
     <link rel="stylesheet" href="./style/output.css">
     <!-- Font -->
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link rel="icon" href="https://1.bp.blogspot.com/-xqJZIyNpxzQ/YZbLaDFZ2ZI/AAAAAAAAThk/FKzjx3AH95U8FM5AJInhzsBIDAKMeY9hwCLcBGAsYHQ/s1575/Kampus+Merdeka.png">
 </head>
 <body class="font-sans">
     <!-- navbar -->
@@ -34,7 +35,7 @@
                         <a href="#" class="block py-2 px-3 text-white font-bold">Butuh Bantuan?</a>
                     </li>
                     <li>
-                        <button class="py-2 px-3 bg-white text-black rounded-full  gap-2 flex items-center font-bold">
+                        <button class="py-2 px-3 bg-white text-black rounded-full  gap-2 flex items-center font-bold text-sm">
                             <img src="./img/user-icon.png" alt="" srcset="" class="flex w-5">
                             Masuk ke Akun
                         </button>
@@ -45,11 +46,32 @@
     </nav>
 
     <nav class=" white-bg-white">
-        <div class="xl:w-[80%] lg:w-[95%] md:w-full max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-10">
-
+        <div class="xl:w-[80%] lg:w-[95%] md:w-full max-w-screen-xl flex flex-wrap items-center justify-between mx-auto">
+            <div class=" bg-white container m-auto hidden items-center lg:flex mr-24">
+                <ul class="flex text-base items-center font-bold">
+                    <a href="#" class="flex items-center p-5  hover:bg-slate-200 hover:text-blue-600 h-20">
+                        <p>Kampus Mengajar</p>
+                        <span class="flex items-center"><ion-icon name="chevron-down-outline"></ion-icon></span>
+                    </a>
+                    <a href="#" class="flex items-center p-5  hover:bg-slate-200 hover:text-blue-600 h-20">
+                        <p>Magang MSIB</p>
+                        <span class="flex items-center"><ion-icon name="chevron-down-outline"></ion-icon></span>
+                    </a>
+                    <a href="#" class="flex items-center p-5  hover:bg-slate-200 hover:text-blue-600 h-20">
+                        <p>Studi Independen Bersertifikat</p>
+                        <span class="flex items-center"><ion-icon name="chevron-down-outline"></ion-icon></span>
+                    </a>
+                    <a href="#" class="flex items-center p-5  hover:bg-slate-200 hover:text-blue-600 h-20">
+                        <p>Pertukaran Mahasiswa Merdeka</p>
+                        <span class="flex items-center"><ion-icon name="chevron-down-outline"></ion-icon></span>
+                    </a>
+                    <a href="#" class="flex items-center p-5  hover:bg-slate-200 hover:text-blue-600 h-20">
+                        <p>Program dan Kegiatan Lainnya</p>
+                    </a>
+                </ul>
+            </div>
         </div>
     </nav>
-
 
     <div class="grid grid-flow-row auto-rows-max bg-neutral-100">
         <div class="bg-cover bg-no-repeat" style="background-image: url('./img/headline-mahasiswa.webp');">
@@ -73,231 +95,252 @@
             <div class="xl:w-[80%] lg:w-[95%] md:w-full max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-5">
                 <p class="font-bold text-black text-5xl mb-5">Program dan Kegiatan Unggulan</p>
             </div>
-        
+
             <div class="xl:w-[80%] lg:w-[95%] md:w-full max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-5">
-                <div class="grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-3 max-w-screen-xl flex-wrap items-center justify-between mx-auto">
-                    <div class=" p-6 bg-white border border-gray-200 rounded-2xl shadow mx-5 mb-2 mt-2">
-                        <a href="#">
-                            <img class=" mt-5 mb-5 size-px" src="./img/kampus-mengajar-logo.webp" alt="" />
-                        </a>
-                        <a href="#">
-                            <h5 class="mb-2 text-2xl font-bold tracking-tight text-black">Kampus Mengajar</h5>
-                        </a>
-                        <p class="mb-5 font-normal text-gray-500">Bantu peningkatan kualitas pendidikan dasar dengan terlibat langsung  pada proses pengajaran di sekolah-sekolah yang berlokasi di seluruh daerah di Indonesia.</p>
-                        <div class="flex flex-col gap-2">
-                            <a href="#" class="inline-flex items-center px-3 py-2 text-lg font-bold text-center text-blue-700 rounded-lg hover:text-blue-800 ">
-                                Tentang Program
-                                <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2 flex items-end" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
-                                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
-                                </svg>
+                <div class="grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-3 mx-auto">
+
+                    <div class="lg:max-w-85 shadow-md border rounded-2xl min-h-85 p-8 flex flex-col justify-between bg-white mx-2 my-2">
+                        <div class="pb-5">
+                           <div class="w-full flex lg:justify-center justify-start">
+                            <img class="lg:h-20 h-16 mb-4" src="./img/kampus-mengajar-logo.webp">
+                           </div>
+                        <p class="font-bold text-2xl my-2">Kampus Mengajar</p>
+                        <span class="font-normal text-gray-500 text-base">Bantu peningkatan kualitas pendidikan dasar dengan terlibat langsung  pada proses pengajaran di sekolah-sekolah yang berlokasi di seluruh daerah di Indonesia.</span>
+                        </div>
+                        <div class="flex flex-col">
+                            <a href="#" class="text-blue-600 font-bold text-base flex justify-between items-center py-5 border-t">Tentang Program <span class="flex items-center"><svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+                            </svg></span>
                             </a>
-                            <a href="#" class="inline-flex items-center px-3 py-2 text-lg font-bold text-center text-blue-700 rounded-lg hover:text-blue-800 ml-auto">
-                                Syarat dan Ketentuan
-                                <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2 flex justify-end" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
-                                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
-                                </svg>
+                            <a href="#" class="text-blue-600 font-bold text-base flex justify-between items-center py-5 border-t">Syarat dan Ketentuan <span class="flex items-center"><svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+                            </svg></span>
                             </a>
                         </div>
                     </div>
-                    
-                    <div class=" p-6 bg-white border border-gray-200 rounded-2xl shadow mx-5 mb-2 mt-2">
-                        <a href="#">
-                            <img class=" mt-5 mb-5 size-px" src="./img/kampus-mengajar-logo.webp" alt="" />
-                        </a>
-                        <a href="#">
-                            <h5 class="mb-2 text-2xl font-bold tracking-tight text-black">Magang MSIB</h5>
-                        </a>
-                        <p class="mb-5 font-normal text-gray-500">Dapatkan pengalaman dunia kerja secara langsung sebagai persiapan kariermu.</p>
-                        
-                        <div class="py-2 px-3 flex flex-col gap-2 items-center">
-                            <a href="#" class="inline-flex items-center px-3 py-2 text-md font-bold text-center text-black rounded-2xl border border-black border-spacing-5">
-                                Cari Posisi Magang
-                            </a>
+        
+                    <div class="lg:max-w-85 shadow-md border rounded-2xl min-h-85 p-8 flex flex-col justify-between mx-2 my-2 bg-white">
+                        <div class="pb-5 flex flex-col">
+                            <div class="w-full lg:justify-center flex justify-start">
+                                <img class="lg:h-20 h-16 mb-4" src="./img/msib-logo.webp">
+                               </div>
+                        <p class="font-bold text-2xl my-2">Magang MSIB</p>
+                        <span class="font-normal text-base text-gray-500">Dapatkan pengalaman dunia kerja secara langsung sebagai persiapan kariermu.</span>
+                        <button class="outline outline-1 outline-offset-2 p-2 rounded-xl mt-4 font-medium"> Cari Posisi Magang</button>
                         </div>
-                        <div class="flex flex-col gap-2 divide-y divide-gray-200 dark:divide-gray-500">
-                            <a href="#" class="inline-flex items-center px-3 py-2 text-lg font-bold text-center text-blue-700 rounded-lg hover:text-blue-800">
-                                Tentang Program
-                                <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2 flex items-end" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
-                                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
-                                </svg>
+                        <div class="flex flex-col">
+                            <a href="#" class="text-blue-600 font-bold text-base flex justify-between items-center py-5 border-t">Tentang Program <span class="flex items-center"><svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+                            </svg></span>
                             </a>
-                            <a href="#" class="inline-flex items-center px-3 py-2 text-lg font-bold text-center text-blue-700 rounded-lg hover:text-blue-800">
-                                Syarat dan Ketentuan
-                                <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2 flex justify-end" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
-                                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
-                                </svg>
+                            <a href="#" class="text-blue-600 font-bold text-base flex justify-between items-center py-5 border-t">Syarat dan Ketentuan <span class="flex items-center"><svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+                            </svg></span>
                             </a>
                         </div>
                     </div>
 
-                    <div class=" p-6 bg-white border border-gray-200 rounded-2xl shadow mx-5 mb-2 mt-2">
-                        <a href="#">
-                            <img class=" mt-5 mb-5 size-px" src="./img/kampus-mengajar-logo.webp" alt="" />
-                        </a>
-                        <a href="#">
-                            <h5 class="mb-2 text-2xl font-bold tracking-tight text-black">Kampus Mengajar</h5>
-                        </a>
-                        <p class="mb-5 font-normal text-gray-500">Bantu peningkatan kualitas pendidikan dasar dengan terlibat langsung  pada proses pengajaran di sekolah-sekolah yang berlokasi di seluruh daerah di Indonesia.</p>
-                        <button class="py-2 px-3 bg-white text-black rounded-full  gap-2 flex items-center font-bold">
-                            <img src="./img/user-icon.png" alt="" srcset="" class="flex w-5">
-                            Masuk ke Akun
-                        </button>
-                        <div class="flex flex-col gap-2 divide-y divide-gray-200 dark:divide-gray-500">
-                            <a href="#" class="inline-flex items-center px-3 py-2 text-lg font-bold text-center text-blue-700 rounded-lg hover:text-blue-800">
-                                Tentang Program
-                                <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2 flex items-end" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
-                                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
-                                </svg>
+                    <div class="lg:max-w-85 shadow-md border rounded-2xl min-h-85 p-8 flex flex-col justify-between mx-2 my-2 bg-white">
+                        <div class="pb-5 flex flex-col">
+                            <div class="w-full lg:justify-center flex justify-start">
+                                <img class="lg:h-20 h-16 mb-4" src="./img/msib-logo.webp">
+                               </div>
+                        <p class="font-bold text-2xl my-2">Studi Independen </p>
+                        <span class="font-normal text-base text-gray-500">Jalankan proyek penelitian dengan studi kasus nyata dari para pelaku industri ternama.</span>
+                        <button class="outline outline-1 outline-offset-2 p-2 rounded-xl mt-4 font-medium"> Cari Kelas Studi Independen</button>
+                        </div>
+                        <div class="flex flex-col">
+                            <a href="#" class="text-blue-600 font-bold text-base flex justify-between items-center py-5 border-t">Tentang Program <span class="flex items-center"><svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+                            </svg></span>
                             </a>
-                            <a href="#" class="inline-flex items-center px-3 py-2 text-lg font-bold text-center text-blue-700 rounded-lg hover:text-blue-800">
-                                Syarat dan Ketentuan
-                                <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2 flex justify-end" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
-                                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
-                                </svg>
+                            <a href="#" class="text-blue-600 font-bold text-base flex justify-between items-center py-5 border-t">Syarat dan Ketentuan <span class="flex items-center"><svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+                            </svg></span>
                             </a>
                         </div>
                     </div>
 
-                    <div class=" p-6 bg-white border border-gray-200 rounded-2xl shadow mx-5 mb-2 mt-2">
-                        <a href="#">
-                            <img class=" mt-5 mb-5 size-px" src="./img/kampus-mengajar-logo.webp" alt="" />
-                        </a>
-                        <a href="#">
-                            <h5 class="mb-2 text-2xl font-bold tracking-tight text-black">Kampus Mengajar</h5>
-                        </a>
-                        <p class="mb-5 font-normal text-gray-500">Bantu peningkatan kualitas pendidikan dasar dengan terlibat langsung  pada proses pengajaran di sekolah-sekolah yang berlokasi di seluruh daerah di Indonesia.</p>
-                        <div class="flex flex-col gap-2 divide-y divide-gray-200 dark:divide-gray-500">
-                            <a href="#" class="inline-flex items-center px-3 py-2 text-lg font-bold text-center text-blue-700 rounded-lg hover:text-blue-800">
-                                Tentang Program
-                                <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2 flex items-end" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
-                                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
-                                </svg>
+                    <div class="lg:max-w-85 shadow-md border rounded-2xl min-h-85 p-8 flex flex-col justify-between bg-white mx-2 my-2">
+                        <div class="pb-5">
+                           <div class="w-full flex lg:justify-center justify-start">
+                            <img class="lg:h-20 h-16 mb-4" src="./img/pmm-logo.webp">
+                           </div>
+                        <p class="font-bold text-2xl my-2">Pertukaran Mahasiswa Merdeka </p>
+                        <span class="font-normal text-gray-500 text-base">Program pertukaran mahasiswa dalam negeri  yang memberikan pengalaman langsung untuk lebih memaknai keberagaman budaya nusantara.</span>
+                        </div>
+                        <div class="flex flex-col">
+                            <a href="#" class="text-blue-600 font-bold text-base flex justify-between items-center py-5 border-t">Tentang Program <span class="flex items-center"><svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+                            </svg></span>
                             </a>
-                            <a href="#" class="inline-flex items-center px-3 py-2 text-lg font-bold text-center text-blue-700 rounded-lg hover:text-blue-800">
-                                Syarat dan Ketentuan
-                                <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2 flex justify-end" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
-                                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
-                                </svg>
+                            <a href="#" class="text-blue-600 font-bold text-base flex justify-between items-center py-5 border-t">Syarat dan Ketentuan <span class="flex items-center"><svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+                            </svg></span>
                             </a>
                         </div>
                     </div>
 
-                    <div class=" p-6 bg-white border border-gray-200 rounded-2xl shadow mx-5 mb-2 mt-2">
-                        <a href="#">
-                            <img class=" mt-5 mb-5 size-px" src="./img/kampus-mengajar-logo.webp" alt="" />
-                        </a>
-                        <a href="#">
-                            <h5 class="mb-2 text-2xl font-bold tracking-tight text-black">Kampus Mengajar</h5>
-                        </a>
-                        <p class="mb-5 font-normal text-gray-500">Bantu peningkatan kualitas pendidikan dasar dengan terlibat langsung  pada proses pengajaran di sekolah-sekolah yang berlokasi di seluruh daerah di Indonesia.</p>
-                        <div class="flex flex-col gap-2 divide-y divide-gray-200 dark:divide-gray-500">
-                            <a href="#" class="inline-flex items-center px-3 py-2 text-lg font-bold text-center text-blue-700 rounded-lg hover:text-blue-800">
-                                Tentang Program
-                                <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2 flex items-end" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
-                                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
-                                </svg>
-                            </a>
-                            <a href="#" class="inline-flex items-center px-3 py-2 text-lg font-bold text-center text-blue-700 rounded-lg hover:text-blue-800">
-                                Syarat dan Ketentuan
-                                <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2 flex justify-end" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
-                                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
-                                </svg>
+                    <div class="lg:max-w-85 shadow-md border rounded-2xl min-h-85 p-8 flex flex-col justify-between bg-white mx-2 my-2">
+                        <div class="pb-5">
+                           <div class="w-full flex lg:justify-center justify-start">
+                            <img class="lg:h-20 h-16 mb-4" src="./img/wmk-logo.webp">
+                           </div>
+                        <p class="font-bold text-2xl my-2">Wirausaha Merdeka</p>
+                        <span class="font-normal text-gray-500 text-base">Ikuti program unggulan dari berbagai Perguruan Tinggi yang bertujuan untuk meningkatkan kemampuan wirausaha.</span>
+                        </div>
+                        <div class="flex flex-col">
+                            <a href="#" class="text-blue-600 font-bold text-base flex justify-between items-center py-5 border-t">Tentang Program <span class="flex items-center"><svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+                            </svg></span>
                             </a>
                         </div>
                     </div>
 
-                    <div class=" p-6 bg-white border border-gray-200 rounded-2xl shadow mx-5 mb-2 mt-2">
-                        <a href="#">
-                            <img class=" mt-5 mb-5 size-px" src="./img/kampus-mengajar-logo.webp" alt="" />
-                        </a>
-                        <a href="#">
-                            <h5 class="mb-2 text-2xl font-bold tracking-tight text-black">Kampus Mengajar</h5>
-                        </a>
-                        <p class="mb-5 font-normal text-gray-500">Bantu peningkatan kualitas pendidikan dasar dengan terlibat langsung  pada proses pengajaran di sekolah-sekolah yang berlokasi di seluruh daerah di Indonesia.</p>
-                        <div class="flex flex-col gap-2 divide-y divide-gray-200 dark:divide-gray-500">
-                            <a href="#" class="inline-flex items-center px-3 py-2 text-lg font-bold text-center text-blue-700 rounded-lg hover:text-blue-800">
-                                Tentang Program
-                                <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2 flex items-end" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
-                                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
-                                </svg>
+                    <div class="lg:max-w-85 shadow-md border rounded-2xl min-h-85 p-8 flex flex-col justify-between bg-white mx-2 my-2">
+                        <div class="pb-5">
+                           <div class="w-full flex lg:justify-center justify-start">
+                            <img class="lg:h-20 h-16 mb-4" src="./img/iisma-logo.webp">
+                           </div>
+                        <p class="font-bold text-2xl my-2">Indonesian International Student Mobility Awards </p>
+                        <span class="font-normal text-gray-500 text-base">Program pertukaran dengan universitas lain dari seluruh dunia untuk bertukar budaya.</span>
+                        </div>
+                        <div class="flex flex-col">
+                            <a href="#" class="text-blue-600 font-bold text-base flex justify-between items-center py-5 border-t">Tentang Program <span class="flex items-center"><svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+                            </svg></span>
                             </a>
-                            <a href="#" class="inline-flex items-center px-3 py-2 text-lg font-bold text-center text-blue-700 rounded-lg hover:text-blue-800">
-                                Syarat dan Ketentuan
-                                <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2 flex justify-end" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
-                                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
-                                </svg>
+                            <a href="#" class="text-blue-600 font-bold text-base flex justify-between items-center py-5 border-t">Syarat dan Ketentuan <span class="flex items-center"><svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+                            </svg></span>
                             </a>
                         </div>
                     </div>
 
-                    <div class=" p-6 bg-white border border-gray-200 rounded-2xl shadow mx-5 mb-2 mt-2">
-                        <a href="#">
-                            <img class=" mt-5 mb-5 size-px" src="./img/kampus-mengajar-logo.webp" alt="" />
-                        </a>
-                        <a href="#">
-                            <h5 class="mb-2 text-2xl font-bold tracking-tight text-black">Kampus Mengajar</h5>
-                        </a>
-                        <p class="mb-5 font-normal text-gray-500">Bantu peningkatan kualitas pendidikan dasar dengan terlibat langsung  pada proses pengajaran di sekolah-sekolah yang berlokasi di seluruh daerah di Indonesia.</p>
-                        <div class="flex flex-col gap-2 divide-y divide-gray-200 dark:divide-gray-500">
-                            <a href="#" class="inline-flex items-center px-3 py-2 text-lg font-bold text-center text-blue-700 rounded-lg hover:text-blue-800">
-                                Tentang Program
-                                <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2 flex items-end" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
-                                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
-                                </svg>
-                            </a>
-                            <a href="#" class="inline-flex items-center px-3 py-2 text-lg font-bold text-center text-blue-700 rounded-lg hover:text-blue-800">
-                                Syarat dan Ketentuan
-                                <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2 flex justify-end" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
-                                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
-                                </svg>
+                    <div class="lg:max-w-85 shadow-md border rounded-2xl min-h-85 p-8 flex flex-col justify-between bg-white mx-2 my-2">
+                        <div class="pb-5">
+                           <div class="w-full flex lg:justify-center justify-start">
+                            <img class="lg:h-20 h-16 mb-4" src="./img/praktisi-mengajar.webp">
+                           </div>
+                        <p class="font-bold text-2xl my-2">Praktisi Mengajar</p>
+                        <span class="font-normal text-gray-500 text-base">Ruang kolaborasi antara Praktisi sebagai representasi industri dengan dosen Perguruan Tinggi dalam bentuk pengajaran mata kuliah agar mahasiswa lebih siap untuk masuk ke dunia kerja.</span>
+                        </div>
+                        <div class="flex flex-col">
+                            <a href="#" class="text-blue-600 font-bold text-base flex justify-between items-center py-5 border-t">Tentang Program<span class="flex items-center"><svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+                            </svg></span>
                             </a>
                         </div>
                     </div>
+
 
                 </div>
             </div>
+            
 
             <div class="xl:w-[80%] lg:w-[95%] md:w-full max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-5">
                 <p class="font-bold text-black text-5xl mb-5">Kegiatan Lainnya</p>
             </div>
             <div class="xl:w-[80%] lg:w-[95%] md:w-full max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-5">
-                <div class="grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-3 md:grid-cols-2 max-w-screen-xl flex-wrap items-center justify-between mx-auto">
-                    <div class=" p-6 bg-white border border-gray-200 rounded-2xl shadow mx-5 mb-2 mt-2">
-                        <a href="#">
-                            <img class=" mt-5 mb-5" src="./img/kampus-mengajar-logo.webp" alt="" />
-                        </a>
-                        <a href="#">
-                            <h5 class="mb-2 text-2xl font-bold tracking-tight text-black">Kampus Mengajar</h5>
-                        </a>
-                        <p class="mb-5 font-normal text-gray-500">Bantu peningkatan kualitas pendidikan dasar dengan terlibat langsung  pada proses pengajaran di sekolah-sekolah yang berlokasi di seluruh daerah di Indonesia.</p>
-                        <div class="flex flex-col gap-2">
-                            <a href="#" class="inline-flex items-center px-3 py-2 text-lg font-bold text-center text-blue-700 rounded-lg hover:text-blue-800 ">
-                                Tentang Program
-                                <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2 flex items-end" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
-                                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
-                                </svg>
-                            </a>
-                            <a href="#" class="inline-flex items-center px-3 py-2 text-lg font-bold text-center text-blue-700 rounded-lg hover:text-blue-800 ml-auto">
-                                Syarat dan Ketentuan
-                                <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2 flex justify-end" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
-                                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
-                                </svg>
+                <div class="grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-3 mx-auto">
+
+                    <div class="lg:max-w-85 shadow-md border rounded-2xl min-h-80 p-8 flex flex-col justify-between bg-white mx-2 my-2">
+                        <div class="pb-5">
+                           <div class="w-full flex lg:justify-center justify-start">
+                            <img class="lg:h-20 h-16 mb-4 p-5" src="./img/logo-mandiri.webp">
+                           </div>
+                        <p class="font-bold text-2xl my-2">Magang Mandiri </p>
+                        <span class="font-normal text-gray-500 text-base">Temukan pengalaman dunia kerja yang dikelola langsung oleh perusahaan tanpa ada batasan kuota dan jadwal yang lebih fleksibel.</span>
+                        </div>
+                        <div class="flex flex-col">
+                            <a href="#" class="text-blue-600 font-bold text-base flex justify-between items-center py-5 border-t">Tentang Program <span class="flex items-center"><svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+                            </svg></span>
                             </a>
                         </div>
                     </div>
-            </div>
-            </div>
+                </div>
 
         </div>
     </div>
 
-    <footer class="bg-black dark:bg-black">
-        <div class="bg-black">
-            <div class="xl:w-[80%] lg:w-[95%] md:w-full max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-10">
+    <footer class="w-screen bg-black lg:flex hidden items-center pt-5 text-white">
+            <div class="xl:w-[80%] lg:w-[95%] md:w-full max-w-screen-xl mx-auto p-10">
+                <div class="footer container h-full m-auto bg-black">
+                    <div class="grid grid-cols-2 gap-20 ">
+                        <div class="grid grid-cols-4 gap-2">
+                            <div class="col-span-1 row-span-3">
+                                <img src="./img/logo-kemendikbud.webp" width="160px">  
+                            </div>
+                            <div class="col-span-3">
+                                <h1 class="font-bold mb-6">Direktorat Jenderal Pendidikan Tinggi, Riset, dan Teknologi (Diktiristek)</h1>
+                                <p>marketing@kampusmerdeka.co</p>
+                                <p>Jl. Jenderal Sudirman, Senayan, Jakarta 10270</p>
+                            </div>
+                            <div class="w-5"></div>
+                            <div class=" col-span-3 col-start-2 col-end-5 text-2xl flex space-x-5">
+                                <ion-icon name="logo-twitter"></ion-icon>
+                                <ion-icon name="logo-instagram"></ion-icon>
+                                <ion-icon name="logo-youtube"></ion-icon>
+                                <ion-icon name="logo-facebook"></ion-icon>
+                                <ion-icon name="logo-linkedin"></ion-icon>
+                                <ion-icon name="globe-outline"></ion-icon>
+                            </div>
+                        </div>
 
-            </div>
+                        <div class="grid grid-cols-4 gap-4">
+                            <div class="col-span-1">
+                                <h1 class="font-bold mb-6">Navigasi</h1>
+                                <ul class="flex flex-col space-y-3">
+                                    <li><a href="#">Beranda</a></li>
+                                    <li><a href="#">Tentang Kami</a></li>
+                                    <li><a href="#">Berita</a></li>
+                                    <li><a href="#">Pengumuman</a></li>
+                                    <li><a href="#">FAQ</a></li>
+                                    <li><a href="#">Program</a></li>
+                                    <li><a href="#">Daftar</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-span-2 col-start-3">
+                                <h1 class="font-bold mb-6">Tautan Eksternal</h1>
+                                <p>Mitra Kampus Merdeka</p>
+                            </div>
+                            <div class="col-span-4">
+                                <p>Hak Cipta 2022 Kementerian Pendidikan dan Kebudayaan </p>
+                                <p>RI Foto oleh ITS, ITERA, and UI</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
         </div>
     </footer>
+
+    
+
+    <div class="max-w-screen-[80%]">
+        <div class="lg:hidden flex items-center justify-between container-fluid fixed bottom-0 left-0 right-5 w-full h-14 bg-white border border-t-gray-100">
+            <div class="w-4/5 flex-wrap items-center justify-between mx-auto">
+                <div class="flex items-center justify-between container m-auto ">
+                    <div class="flex flex-col items-center py-1 text-slate-500 ">
+                        <a href="#" class="p-0 text-xl"><ion-icon name="home"></ion-icon></a>
+                        <span class="p-0 text-xs">Beranda</span>
+                    </div>
+                    <div class="flex flex-col items-center">
+                        <a href="#" class="p-0 text-xl text-orange-600"><ion-icon name="briefcase"></ion-icon></a>
+                        <span class="text-xs font-semibold">Program</span>
+                    </div>
+                    <div class="flex flex-col items-center text-slate-500">
+                        <a href="#" class="p-0 text-xl"><ion-icon name="help-circle-outline"></ion-icon></a>
+                        <span class="text-xs">FAQ</span>
+                    </div>
+                    <div class="flex flex-col items-center text-slate-500">
+                        <a href="#" class="p-0 text-xl"><ion-icon name="person"></ion-icon></a>
+                        <span class="text-xs">Masuk</span>
+                    </div>
+                   </div>
+            </div>
+        </div>
+    </div>
     
       <!-- script -->
     <script>
@@ -310,5 +353,7 @@
             }
         });
     </script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </body>
 </html>
